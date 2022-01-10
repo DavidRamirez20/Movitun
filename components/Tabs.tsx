@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import { Nosotros } from './Nosotros';
 
 const CenteredTabs = () => {
    const [value, setValue] = useState(0);
