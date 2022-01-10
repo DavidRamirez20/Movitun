@@ -14,7 +14,7 @@ const CenteredTabs = () => {
    return (
       <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
          <Tabs value={value} onChange={handleChange} centered>
-         <Tab label="Item One" {... Nosotros} />
+         <Tab label="Item One" />
          <Tab label="Item Two" />
          <Tab label="Item Three" />
          </Tabs>
