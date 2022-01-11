@@ -30,6 +30,12 @@ const SupplierMov = () => {
                      link = 'https://www.carvajaltys.com/servicio-al-cliente/#'
                   />
                </ul>
+               <div className='m-8 justify-center text-center'>
+                  <span>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos delectus, corporis perspiciatis voluptatum nam quaerat. 
+                     Nostrum, praesentium tempora velit aliquid quis fugiat, magnam provident commodi sit molestiae quia explicabo perspiciatis!
+                  </span>
+               </div>
             </div>
          </main>
          <Footer />
