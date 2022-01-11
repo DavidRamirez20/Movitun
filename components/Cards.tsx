@@ -12,7 +12,7 @@ const Cards = (cardType: CardsType) => {
    return (
       <li className='m-10 bg-cyan-200 shadow-md rounded-lg hover:cursor-pointer hover:scale-[1.02]'>
          <Link href={cardType.link} passHref>
-            <div className='flex w-[240px] h-[350px]'>
+            <div className='flex w-96 h-96'>
                <Image 
                   src={cardType.image} 
                   alt={cardType.name} 

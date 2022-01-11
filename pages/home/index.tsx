@@ -1,23 +1,22 @@
 import React from 'react'
-import type { NextPage } from 'next'
 import Head from 'next/head'
-import Footer from '../../components/Footer'
-import Navbar from '../../components/Navbar'
+import type { NextPage } from 'next'
 import CenteredTabs from '../../components/Tabs'
+import MainLayout from '../../layouts/MainLayout'
 
 const Home: NextPage = () => {
   return (
-    <div className='flex flex-col'>
-      <Head>
-        <title>Home | Movitun</title>
-      </Head>
-      <Navbar />
-      <CenteredTabs />
-      <main className='h-screen bg-slate-50'>
-        Hola
-      </main>
-      <Footer />
-    </div>
+    <MainLayout>
+        <div className='flex flex-col'>
+          <Head>
+            <title>Home | Movitun</title>
+          </Head>
+          <CenteredTabs />
+          <div className='bg-slate-50'>
+            Hola
+          </div>
+        </div>
+    </MainLayout>
   )
 }
 
