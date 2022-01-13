@@ -25,6 +25,7 @@ const Navbaresponsive = () => {
                <ResponsiveRoute name='Nosotros' route='/home/us'/>
                <ResponsiveRoute name='Servicio al Cliente' route='/home/client'/>
                <ResponsiveRoute name='Proveedores' route='/home/suppliers'/>
+               <ResponsiveRoute name='Contáctenos' route='/home/contact'/>
             </ul>
          )}
       </div>

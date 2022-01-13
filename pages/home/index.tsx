@@ -12,9 +12,6 @@ const Home: NextPage = () => {
             <title>Home | Movitun</title>
           </Head>
           <CenteredTabs />
-          <div className='bg-slate-50'>
-            Hola
-          </div>
         </div>
     </MainLayout>
   )
