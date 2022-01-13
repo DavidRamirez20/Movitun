@@ -12,12 +12,15 @@ const Navbaresponsive = () => {
          }}
       >
          <i 
-            className={`mx-3 fas fa-${
+            className={`mx-3 my-3 fas fa-${
                navegation ? 'times' : 'bars'
             } hover:text-gray-400 cursor-pointer`}
          />
+         <p className='text-center text-xl font-bold italic'>Movitun</p>
+         <p className='text-center text-lg italic my-0'>Tramite unificado de movilidad</p>
          {navegation && (
             <ul className='mx-3 flex flex-col text-center'>
+               <ResponsiveRoute name='| Home |' route='/'/>
                <ResponsiveRoute name='Inicio' route='/home'/>
                <ResponsiveRoute name='Nosotros' route='/home/us'/>
                <ResponsiveRoute name='Servicio al Cliente' route='/home/client'/>
