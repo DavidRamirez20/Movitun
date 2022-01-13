@@ -13,31 +13,37 @@ const Navbar = () => {
             </Link>
          </div>
          <ul className='flex flex-row justify-evenly w-3/4 items-center'>
+            <li className='text-gray-50'>|</li>
             <li>
                <Link href='/home'>
                   <a className='text-gray-50 hover:cursor-pointer'>Inicio</a>
                </Link>
             </li>
+            <li className='text-gray-50'>|</li>
             <li>
                <Link href='/home/us'>
                   <a className='text-gray-50 hover:cursor-pointer'>Nosotros</a>
                </Link>
             </li>
+            <li className='text-gray-50'>|</li>
             <li>
                <Link href='/home/client'>
                   <a className='text-gray-50 hover:cursor-pointer'>Atención al Cliente</a>
                </Link>
             </li>
+            <li className='text-gray-50'>|</li>
             <li>
                <Link href='/home/suppliers'>
                   <a className='text-gray-50 hover:cursor-pointer'>Proveedores</a>
                </Link>
             </li>
+            <li className='text-gray-50'>|</li>
             <li>
-               <Link href='/home/suppliers hover:cursor-pointer'>
+               <Link href='/home/ hover:cursor-pointer'>
                   <a className='text-gray-50'>Contáctenos</a>
                </Link>
             </li>
+            <li className='text-gray-50'>|</li>
          </ul>
       </nav>
    )

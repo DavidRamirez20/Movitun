@@ -14,17 +14,17 @@ const SupplierMov = () => {
                <div>
                   <ul className='flex flex-wrap justify-around list-none'>
                      <Cards 
-                        name = 'Carvajal'
+                        name = 'Movitun'
                         image ="https://media.istockphoto.com/photos/human-figure-icon-graphic-as-user-login-button-on-white-keyboard-picture-id1226883131?b=1&k=20&m=1226883131&s=170667a&w=0&h=FMYb1DFOYbcb2vmbzZhq71k-4cuarJ1U4xCBWjGnze8="
                         link = 'https://www.carvajaltys.com/'
                      />
                      <Cards 
-                        name = 'Carvajal 2'
+                        name = 'Movitun 2'
                         image ="https://media.istockphoto.com/photos/human-figure-icon-graphic-as-user-login-button-on-white-keyboard-picture-id1226883131?b=1&k=20&m=1226883131&s=170667a&w=0&h=FMYb1DFOYbcb2vmbzZhq71k-4cuarJ1U4xCBWjGnze8="
                         link = 'https://www.carvajal.com/'
                      />
                      <Cards 
-                        name = 'Carvajal 3'
+                        name = 'Movitun 3'
                         image ="https://media.istockphoto.com/photos/human-figure-icon-graphic-as-user-login-button-on-white-keyboard-picture-id1226883131?b=1&k=20&m=1226883131&s=170667a&w=0&h=FMYb1DFOYbcb2vmbzZhq71k-4cuarJ1U4xCBWjGnze8="
                         link = 'https://www.carvajaltys.com/servicio-al-cliente/#'
                      />
