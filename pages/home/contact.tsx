@@ -1,10 +1,13 @@
 import React from 'react'
+import MainLayout from '../../layouts/MainLayout';
 
 const ContactMov = () => {
    return (
-      <div>
-         
-      </div>
+      <MainLayout>
+         <div>
+            Hola
+         </div>
+      </MainLayout>
    )
 }
 
