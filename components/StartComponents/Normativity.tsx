@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 
-const NewnessMov = () => {
+const NormativityMov = () => {
   
    interface TabPanelProps {
       children?: React.ReactNode;
@@ -39,19 +39,19 @@ const NewnessMov = () => {
    return (
       <TabPanel value={value} index={0} dir={theme.direction}>
          <div className='flex flex-col m-0'>
-            <div className='flex flex-row m-4 p-3'>
+            <div className='flex lg:flex-row flex-col m-4 p-3'>
                <Image 
                   src='https://images.unsplash.com/photo-1641843311163-1eb2eeba3c2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
-                  width={'1000rem'}
-                  height={'500rem'}
-                  layout='fixed'
+                  width={1000}
+                  height={100}
+                  layout='responsive'
                />
                <p className='m-4 text-justify'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima distinctio dolore. 
                   Dicta fugiat voluptatum impedit possimus, ad labore obcaecati, unde ipsam commodi placeat atque sit, sint quibusdam modi. Consequuntur!
                </p>
             </div>
-            <div className='flex flex-row m-4 p-3'>
+            <div className='flex lg:flex-row flex-col m-4 p-3'>
                <Image 
                   src='https://images.unsplash.com/photo-1641627423776-66c115e609e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80'
                   width={'1000rem'}
@@ -68,4 +68,4 @@ const NewnessMov = () => {
    )
 }
 
-export default NewnessMov;
+export default NormativityMov;

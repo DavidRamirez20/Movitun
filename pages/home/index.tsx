@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import type { NextPage } from 'next'
-import CenteredTabs from '../../components/Tabs'
 import MainLayout from '../../layouts/MainLayout'
 
 const Home: NextPage = () => {
@@ -11,7 +10,6 @@ const Home: NextPage = () => {
           <Head>
             <title>Home | Movitun</title>
           </Head>
-          <CenteredTabs />
         </div>
     </MainLayout>
   )

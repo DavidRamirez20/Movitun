@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.HomeBack {
+   background-image: url("../public/Home.jpg");
+   background-position: center;
+}
+
+.HomeBack2 {
+   background-image: url("../public/Home2.jpg");
+   background-position: center;
+}

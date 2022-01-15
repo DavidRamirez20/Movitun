@@ -5,8 +5,8 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import NewsMov from './StartComponents/News';
-import PrincipalMov from './StartComponents/Principal';
-import NewnessMov from './StartComponents/Newness';
+import AboutUsMov from './StartComponents/AboutUs';
+import NormativityMov from './StartComponents/Normativity';
 
 function a11yProps(index: number) {
    return {
@@ -28,7 +28,7 @@ export default function FullWidthTabs() {
    };
 
    return (
-      <Box className='m-0'>
+      <Box>
          <Tabs
             value={value}
             onChange={handleChange}
@@ -36,19 +36,18 @@ export default function FullWidthTabs() {
             variant="fullWidth"
             className='m-0'
          >
-            <Tab label="Principal" {...a11yProps(0)} />
-            <Tab label="Noticias" {...a11yProps(1)} />
-            <Tab label="Novedades" {...a11yProps(2)} />
+            <Tab label="Acerca de" {...a11yProps(0)} />
+            <Tab label="Normatividad" {...a11yProps(1)} />
+            <Tab label="Noticias" {...a11yProps(2)} />
          </Tabs>
          <SwipeableViews
             axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
             index={value}
             onChangeIndex={handleChangeIndex}
-            className='m-0'
             >
-            <PrincipalMov />
+            <AboutUsMov />
+            <NormativityMov />
             <NewsMov />
-            <NewnessMov />
          </SwipeableViews>
       </Box>
    );

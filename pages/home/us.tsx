@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Footer from '../../components/Footer'
-import Navbar from '../../components/Navbar'
+import CenteredTabs from '../../components/Tabs'
 import MainLayout from '../../layouts/MainLayout'
 
 const InfoMov = () => {
@@ -11,9 +10,7 @@ const InfoMov = () => {
             <Head>
                <title>Nosotros | Movitun</title>
             </Head>
-            <div className='bg-slate-50'>
-               Nosotros
-            </div>
+            <CenteredTabs />
          </div>
       </MainLayout>
    )

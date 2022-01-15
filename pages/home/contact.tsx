@@ -4,8 +4,8 @@ import MainLayout from '../../layouts/MainLayout';
 const ContactMov = () => {
    return (
       <MainLayout>
-         <div>
-            Hola
+         <div >
+         Hola
          </div>
       </MainLayout>
    )
