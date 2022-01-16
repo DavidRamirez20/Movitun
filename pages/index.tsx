@@ -23,31 +23,31 @@ const index = () => {
                <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home'>
-                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Inicio</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-400'>Inicio</a>
                   </Link>
                </li>
                <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home/us'>
-                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Nosotros</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-400'>Nosotros</a>
                   </Link>
                </li>
                <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home/client'>
-                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Atención al Cliente</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-400'>Atención al Cliente</a>
                   </Link>
                </li>
                <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home/contact'>
-                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Contáctenos</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-400'>Contáctenos</a>
                   </Link>
                </li>
                <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home/suppliers'>
-                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Proveedores</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-400'>Proveedores</a>
                   </Link>
                </li>
                <li className='text-gray-600 font-bold'>|</li>
@@ -56,7 +56,7 @@ const index = () => {
          <Navbaresponsive />
          <div className='m-0 px-80'>
             <div className='bg-slate-100'>
-
+               
             </div>
          </div>
       </div>
