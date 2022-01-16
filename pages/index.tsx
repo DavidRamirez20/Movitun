@@ -2,10 +2,11 @@ import React from 'react'
 import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
+import Navbaresponsive from '../components/Navbaresponsive';
 
 const index = () => {
    return (
-      <div className='HomeBack h-screen bg-cover'>
+      <div className='bg-gradient-to-t from-slate-400 to-slate-200 h-screen'>
          <Head>
          <title>Movitun</title>
          </Head>
@@ -15,45 +16,48 @@ const index = () => {
                   <a>
                      <Image src='/Movitun2.png' alt='Imagen Empresa' width={100} height={80}/>
                   </a>
-                  <span className='font-serif text-3xl text-gray-50'>ovitun</span>
+                  <span className='font-serif text-3xl text-gray-600'>ovitun</span>
                </div>
             </Link>
             <ul className='flex flex-row justify-evenly w-3/4 items-center'>
-               <li className='text-gray-50 font-bold te'>|</li>
+               <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home'>
-                     <a className='text-gray-50 font-bold hover:cursor-pointer hover:text-gray-200'>Inicio</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Inicio</a>
                   </Link>
                </li>
-               <li className='text-gray-50 font-bold'>|</li>
+               <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home/us'>
-                     <a className='text-gray-50 font-bold hover:cursor-pointer hover:text-gray-200'>Nosotros</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Nosotros</a>
                   </Link>
                </li>
-               <li className='text-gray-50 font-bold'>|</li>
+               <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home/client'>
-                     <a className='text-gray-50 font-bold hover:cursor-pointer hover:text-gray-200'>Atención al Cliente</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Atención al Cliente</a>
                   </Link>
                </li>
-               <li className='text-gray-50 font-bold'>|</li>
-               <li>
-                  <Link href='/home/suppliers'>
-                     <a className='text-gray-50 font-bold hover:cursor-pointer hover:text-gray-200'>Proveedores</a>
-                  </Link>
-               </li>
-               <li className='text-gray-50 font-bold'>|</li>
+               <li className='text-gray-600 font-bold'>|</li>
                <li>
                   <Link href='/home/contact'>
-                     <a className='text-gray-50 font-bold hover:cursor-pointer hover:text-gray-200'>Contáctenos</a>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Contáctenos</a>
                   </Link>
                </li>
-               <li className='text-gray-50 font-bold'>|</li>
+               <li className='text-gray-600 font-bold'>|</li>
+               <li>
+                  <Link href='/home/suppliers'>
+                     <a className='text-gray-600 font-bold hover:cursor-pointer hover:text-gray-200'>Proveedores</a>
+                  </Link>
+               </li>
+               <li className='text-gray-600 font-bold'>|</li>
             </ul>
          </nav>
-         <div>
+         <Navbaresponsive />
+         <div className='m-0 px-80'>
+            <div className='bg-slate-100'>
 
+            </div>
          </div>
       </div>
    )

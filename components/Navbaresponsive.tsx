@@ -19,8 +19,12 @@ const Navbaresponsive = () => {
          <p className='text-center text-xl font-bold italic'>Movitun</p>
          <p className='text-center text-lg italic my-0'>Tramite unificado de movilidad</p>
          {navegation && (
-            <ul className='mx-3 flex flex-col text-center'>
-               <ResponsiveRoute name='| Home |' route='/'/>
+            <ul className='mx-10 flex flex-col'>
+               <Link href='/'>
+                  <a className='text-center'>
+                     <li><i className="fas fa-home"></i></li>
+                  </a>
+               </Link>
                <ResponsiveRoute name='Inicio' route='/home'/>
                <ResponsiveRoute name='Nosotros' route='/home/us'/>
                <ResponsiveRoute name='Servicio al Cliente' route='/home/client'/>

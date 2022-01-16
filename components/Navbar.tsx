@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
    return (
-      <nav className="hidden lg:flex m-0 p-7 HomeBack flex-row w-full">
+      <nav className="hidden lg:flex m-0 p-7 bg-gradient-to-b from-slate-400 to-slate-200 flex-row w-full">
          <Link href='/'>
             <div className='w-1/4 text-center hover:cursor-pointer hover:scale-105'>
                <a>
