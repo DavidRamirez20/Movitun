@@ -3,7 +3,6 @@ import SwipeableViews from 'react-swipeable-views';
 import { useTheme } from '@mui/material/styles';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
 import NewsMov from './StartComponents/News';
 import AboutUsMov from './StartComponents/AboutUs';
 import NormativityMov from './StartComponents/Normativity';
