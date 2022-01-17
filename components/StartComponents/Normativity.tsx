@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Box from '@mui/material/Box';
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
+import DocsMov from '../docs';
 
 const NormativityMov = () => {
   
@@ -38,30 +39,50 @@ const NormativityMov = () => {
 
    return (
       <TabPanel value={value} index={0} dir={theme.direction}>
-         <div className='flex flex-col m-0'>
-            <div className='flex lg:flex-row flex-col m-4 p-3'>
-               <Image 
-                  src='https://images.unsplash.com/photo-1641843311163-1eb2eeba3c2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
-                  width={1000}
-                  height={100}
-                  layout='responsive'
-               />
-               <p className='m-4 text-justify'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima distinctio dolore. 
-                  Dicta fugiat voluptatum impedit possimus, ad labore obcaecati, unde ipsam commodi placeat atque sit, sint quibusdam modi. Consequuntur!
-               </p>
-            </div>
-            <div className='flex lg:flex-row flex-col m-4 p-3'>
-               <Image 
-                  src='https://images.unsplash.com/photo-1641627423776-66c115e609e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80'
-                  width={'1000rem'}
-                  height={'500rem'}
-                  layout='fixed'
-               />
-               <p className='m-4 text-justify'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima distinctio dolore. 
-                  Dicta fugiat voluptatum impedit possimus, ad labore obcaecati, unde ipsam commodi placeat atque sit, sint quibusdam modi. Consequuntur!
-               </p>
+         <div className='flex flex-col m-0 lg:px-48'>
+            <div className='flex lg:flex-row flex-col m-0 p-3'>
+               <div className='lg:w-1/5 m-2 border-2 border-[#1e3951] lg:h-96'>
+                  <p className='text-center m-0 p-3 bg-[#48759c] text-[#f9e4ba]'>DOCUMENTOS</p>
+                  <ul className='flex flex-col justify-evenly m-0 p-4'>
+                     <li>Enero</li>
+                     <li>Febrero</li>
+                     <li>Marzo</li>
+                     <li>Abril</li>
+                     <li>Mayo</li>
+                     <li>Junio</li>
+                     <li>Julio</li>
+                     <li>Agosto</li>
+                     <li>Septiembre</li>
+                     <li>Octubre</li>
+                     <li>Noviembre</li>
+                     <li>Diciembre</li>
+                  </ul>
+               </div>
+               <div className='m-0 p-4 lg:w-4/5'>
+                  <h1 className='ml-24 font-bold text-3xl'>Enero</h1>
+                  <ul className='flex flex-col mt-4 lg:ml-10'>
+                     <DocsMov 
+                        name='Resolución No. xxx' 
+                        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima distinctio dolore.'
+                        date='11 - Noviembre - 2021'
+                     />
+                     <DocsMov 
+                        name='Resolución No. xxx' 
+                        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima distinctio dolore.'
+                        date='11 - Noviembre - 2021'
+                     />
+                     <DocsMov 
+                        name='Resolución No. xxx' 
+                        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima distinctio dolore.'
+                        date='11 - Noviembre - 2021'
+                     />
+                     <DocsMov 
+                        name='Resolución No. xxx' 
+                        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima distinctio dolore.'
+                        date='11 - Noviembre - 2021'
+                     />
+                  </ul>
+               </div>
             </div>
          </div>
       </TabPanel>

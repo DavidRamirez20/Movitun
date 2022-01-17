@@ -22,9 +22,9 @@ const Home: NextPage = () => {
                </p>
                <div className='flex justify-end'>
                   <Link href='/home/us'>
-                     <button className='mr-10 mt-4 w-36 h-8 bg-cyan-500 shadow-md shadow-cyan-300 rounded-md text-slate-100 ease-out hover:scale-105 hover:shadow-lg hover:shadow-cyan-300 hover:text-md'>
+                     <button className='mr-10 mt-4 w-36 h-8 bg-cyan-500 shadow-md shadow-cyan-300 rounded-md text-slate-100 ease-out hover:scale-105 hover:shadow-lg hover:shadow-cyan-300 hover:text-md hover:text-slate-200'>
                         Conoce más
-                        <i className="fas fa-chevron-right ml-2"></i>
+                        <i className="fas fa-chevron-right ml-2 animate-pulse hover:translate-x-1 hover:animate-none"></i>
                      </button>
                   </Link>
                </div>

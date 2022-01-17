@@ -6,7 +6,7 @@ import MainLayout from '../../layouts/MainLayout'
 const InfoMov = () => {
    return (
       <MainLayout>
-         <div className='flex flex-col'>
+         <div className='flex flex-col h-min'>
             <Head>
                <title>Nosotros | Movitun</title>
             </Head>

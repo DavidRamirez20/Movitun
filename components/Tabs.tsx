@@ -28,13 +28,13 @@ export default function FullWidthTabs() {
    };
 
    return (
-      <Box>
+      <div className='m-0 h-min'>
          <Tabs
             value={value}
             onChange={handleChange}
             textColor="inherit"
             variant="fullWidth"
-            className='m-0'
+            className='m-0border border-x-0 border-b-0 border-t-gray-300'
          >
             <Tab label="Acerca de" {...a11yProps(0)} />
             <Tab label="Normatividad" {...a11yProps(1)} />
@@ -44,11 +44,12 @@ export default function FullWidthTabs() {
             axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
             index={value}
             onChangeIndex={handleChangeIndex}
+            animateHeight={true}
             >
             <AboutUsMov />
             <NormativityMov />
             <NewsMov />
          </SwipeableViews>
-      </Box>
+      </div>
    );
 }
