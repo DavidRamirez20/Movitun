@@ -16,13 +16,13 @@ const Navbaresponsive = () => {
                navegation ? 'times' : 'bars'
             } hover:text-gray-400 cursor-pointer`}
          />
-         <p className='text-center text-xl font-bold italic'>Movitun</p>
-         <p className='text-center text-lg italic my-0'>Tramite unificado de movilidad</p>
+         <p className='text-center text-xl font-bold italic text-gray-700'>Movitun</p>
+         <p className='text-center text-lg italic my-0 text-gray-700'>Tramite unificado de movilidad</p>
          {navegation && (
             <ul className='mx-10 flex flex-col'>
                <Link href='/'>
                   <a className='text-center'>
-                     <li><i className="fas fa-home"></i></li>
+                     <li><i className="fas fa-home text-gray-600"></i></li>
                   </a>
                </Link>
                <ResponsiveRoute name='Inicio' route='/home'/>
