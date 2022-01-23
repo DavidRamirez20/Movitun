@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import MainLayout from '../../layouts/MainLayout'
 
-const ClienteMov = () => {
+const ClientMov = () => {
    return (
       <MainLayout>
          <div className='flex flex-col'>
@@ -28,4 +28,4 @@ const ClienteMov = () => {
    )
 }
 
-export default ClienteMov
+export default ClientMov
