@@ -6,7 +6,7 @@ import Navbaresponsive from '../components/Navbaresponsive';
 
 const index = () => {
    return (
-      <div className='bg-gradient-to-t from-slate-400 to-slate-200 h-screen'>
+      <div className='h-screen'>
          <Head>
          <title>Movitun</title>
          </Head>
@@ -54,10 +54,12 @@ const index = () => {
             </ul>
          </nav>
          <Navbaresponsive />
-         <div className='m-0 px-80'>
-            <div className='bg-slate-100'>
-               
-            </div>
+         <div className='hidden m-0 px-80 lg:flex'>
+            <Image
+               src='/transport.svg'
+               width={1700}
+               height={1000}
+            />
          </div>
       </div>
    )

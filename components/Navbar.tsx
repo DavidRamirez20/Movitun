@@ -34,12 +34,6 @@ const Navbar = () => {
             </li>
             <li className='text-gray-50 font-bold'>|</li>
             <li>
-               <Link href='/home/contact'>
-                  <a className='text-gray-50 font-bold hover:cursor-pointer hover:text-gray-200'>Contáctenos</a>
-               </Link>
-            </li>
-            <li className='text-gray-50 font-bold'>|</li>
-            <li>
                <Link href='/home/suppliers'>
                   <a className='text-gray-50 font-bold hover:cursor-pointer hover:text-gray-200'>Proveedores</a>
                </Link>
