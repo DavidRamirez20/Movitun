@@ -6,7 +6,7 @@ import Navbaresponsive from '../components/Navbaresponsive';
 
 const index = () => {
    return (
-      <div className='h-screen'>
+      <div className=''>
          <Head>
          <title>Movitun</title>
          </Head>
@@ -60,6 +60,13 @@ const index = () => {
                width={1700}
                height={1000}
             />
+         </div>
+         <div className='lg:hidden flex mt-10'>
+            <Image
+               src='/bookCar.png'
+               width={800}
+               height={600} 
+            /> 
          </div>
       </div>
    )
