@@ -17,25 +17,41 @@ export default class CarouselMov extends Component {
             >
                <div>
                   <Image 
-                     src="https://images.unsplash.com/photo-1471958680802-1345a694ba6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1266&q=80" 
+                     src="https://drive.google.com/uc?id=1b4pftQNvW2eqCYsgIvKcKKsrN1K5DN1t" 
                      alt="image1"
-                     width={1600}
+                     width={1300}
                      height={700}
                   />
                </div>
                <div>
                   <Image 
-                     src="https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                     src="https://drive.google.com/uc?id=1aeLoEekXnbfTdiSf9QpC9s2oHmtLoSnZ" 
                      alt="image2"
-                     width={1600}
+                     width={1300}
                      height={700}
                   />
                </div>
                <div>
                   <Image 
-                     src="https://images.unsplash.com/reserve/oGLumRxPRmemKujIVuEG_LongExposure_i84.jpeg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" 
+                     src="https://drive.google.com/uc?id=18dgkKwgJWM1YyvyGjgwN8P6nH-jb82yv" 
                      alt="image3"
-                     width={1600}
+                     width={1300}
+                     height={700}
+                  />
+               </div>
+               <div>
+                  <Image 
+                     src="https://drive.google.com/uc?id=1giLworFmuxQiQtB-IOzWrHrbP4nVFRMp" 
+                     alt="image3"
+                     width={1300}
+                     height={700}
+                  />
+               </div>
+               <div>
+                  <Image 
+                     src="https://drive.google.com/uc?id=1jEcEJNG8Z9mJsaR-jyXd0xz8hZcH5vFP" 
+                     alt="image3"
+                     width={1300}
                      height={700}
                   />
                </div>

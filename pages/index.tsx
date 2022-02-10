@@ -8,7 +8,7 @@ const index = () => {
    return (
       <div className=''>
          <Head>
-         <title>Movitun</title>
+            <title>Movitun</title>
          </Head>
          <nav className="hidden lg:flex m-0 p-7 flex-row w-full">
             <Link href='/'>
